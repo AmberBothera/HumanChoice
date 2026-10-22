@@ -1,0 +1,94 @@
+|--- num__log_reward_ratio <= -0.58
+|   |--- num__log_delay_ratio <= 0.82
+|   |   |--- num__log_reward_ratio <= -0.88
+|   |   |   |--- num__log_reward_ratio <= -0.89
+|   |   |   |   |--- num__log_delay_ratio <= -1.69
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__log_delay_ratio >  -1.69
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__log_reward_ratio >  -0.89
+|   |   |   |   |--- num__log_reward_magnitude <= 1.45
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_reward_magnitude >  1.45
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- num__log_reward_ratio >  -0.88
+|   |   |   |--- num__log_delay_ratio <= -0.43
+|   |   |   |   |--- num__log_reward_ratio <= -0.76
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_reward_ratio >  -0.76
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__log_delay_ratio >  -0.43
+|   |   |   |   |--- num__log_reward_magnitude <= 0.33
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_reward_magnitude >  0.33
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |--- num__log_delay_ratio >  0.82
+|   |   |--- num__log_reward_magnitude <= 2.39
+|   |   |   |--- num__log_reward_ratio <= -0.71
+|   |   |   |   |--- num__log_reward_magnitude <= -0.75
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_reward_magnitude >  -0.75
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__log_reward_ratio >  -0.71
+|   |   |   |   |--- num__log_delay_ratio <= 1.61
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_delay_ratio >  1.61
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- num__log_reward_magnitude >  2.39
+|   |   |   |--- num__log_reward_ratio <= -0.77
+|   |   |   |   |--- num__log_reward_ratio <= -0.86
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- num__log_reward_ratio >  -0.86
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__log_reward_ratio >  -0.77
+|   |   |   |   |--- num__log_delay_ratio <= 1.52
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_delay_ratio >  1.52
+|   |   |   |   |   |--- truncated branch of depth 2
+|--- num__log_reward_ratio >  -0.58
+|   |--- num__log_delay_ratio <= -0.20
+|   |   |--- num__log_reward_ratio <= 0.15
+|   |   |   |--- num__log_reward_ratio <= -0.52
+|   |   |   |   |--- num__log_reward_magnitude <= -1.25
+|   |   |   |   |   |--- truncated branch of depth 2
+|   |   |   |   |--- num__log_reward_magnitude >  -1.25
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__log_reward_ratio >  -0.52
+|   |   |   |   |--- num__log_reward_magnitude <= 0.09
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_reward_magnitude >  0.09
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- num__log_reward_ratio >  0.15
+|   |   |   |--- num__log_reward_ratio <= 0.55
+|   |   |   |   |--- num__log_delay_ratio <= -1.68
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_delay_ratio >  -1.68
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__log_reward_ratio >  0.55
+|   |   |   |   |--- num__log_reward_magnitude <= -0.93
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_reward_magnitude >  -0.93
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |--- num__log_delay_ratio >  -0.20
+|   |   |--- num__log_delay_ratio <= 1.59
+|   |   |   |--- num__log_reward_ratio <= -0.31
+|   |   |   |   |--- num__log_reward_magnitude <= 0.41
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_reward_magnitude >  0.41
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__log_reward_ratio >  -0.31
+|   |   |   |   |--- num__log_reward_magnitude <= 1.22
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_reward_magnitude >  1.22
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |--- num__log_delay_ratio >  1.59
+|   |   |   |--- num__log_reward_ratio <= 0.23
+|   |   |   |   |--- num__log_delay_ratio <= 2.24
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_delay_ratio >  2.24
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |--- num__log_reward_ratio >  0.23
+|   |   |   |   |--- num__log_reward_magnitude <= 1.24
+|   |   |   |   |   |--- truncated branch of depth 4
+|   |   |   |   |--- num__log_reward_magnitude >  1.24
+|   |   |   |   |   |--- truncated branch of depth 4
